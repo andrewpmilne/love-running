@@ -2,22 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap');
 
 /* Wildcard selector to overrride */
-* {padding: 0;
+* {
+    padding: 0;
     margin: 0;
-    box-sizing:border-box
-    }
+    box-sizing: border-box
+}
+
 body {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     /* generic property styles */
-color: #3a3a3a;
+    color: #3a3a3a;
 }
 
 /* header */
 header {
     background-color: lightcoral;
 }
+
 /* main content */
 main {
     background-color: lightblue;
