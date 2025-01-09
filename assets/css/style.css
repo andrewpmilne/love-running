@@ -48,7 +48,7 @@ h1 {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -70,14 +70,17 @@ nav {
 
 /* Nav toggle on */
 #nav-toggle:checked~nav {
-    display:block
+    display: block
 }
+
 #nav-toggle {
-    display:none;
+    display: none;
 }
+
 .nav-toggle-label {
     size: 2rem;
 }
+
 /* main content */
 main {
     background-color: lightblue;
@@ -87,39 +90,55 @@ main {
 }
 
 /* footer */
-footer {
-    background-color: orange;
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
 }
 
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 /* Media query for tablets and larger (width 768px) */
 @media screen and (min-width: 768px) {
-    nav {display: block;
+    nav {
+        display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
     }
-#menu { 
-    display: flex;
-}
 
-#menu > li {
-    padding-left: 1rem;
-}
-.nav-toggle-label {
-    display: none;
-}
-#logo {
-    font-size: 200%;
-    margin: 0 0.5rem;
-    line-height: 75px;
-}
-/* make main shown */
-main {margin-top: 79px;}
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 200%;
+        margin: 0 0.5rem;
+        line-height: 75px;
+    }
+
+    /* make main shown */
+    main {
+        margin-top: 79px;
+    }
 }
 
 @media screen and (min-width: 992px) {
     #menu a:hover {
-    border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #3a3a3a;
     }
 }
