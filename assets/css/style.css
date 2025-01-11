@@ -179,6 +179,41 @@ img {
     line-height: 0;
     line-height: 1em;
 }
+/* Sign up Styles */
+
+#signup2 {display:flex;
+        flex-direction: column}
+
+#signup {
+        background: url(../images/signup-image.webp) no-repeat center center/cover;
+        flex-grow: 1;
+        background-position: 75%;
+        
+}
+
+#signup-form {
+    color: #fffff;
+    background-color: rgba(60,60,60,.6);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    Margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    flex-direction: column;
+}
+#signup h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+#signup-form label {
+    margin-bottom: 5px;
+    border-bottom: 2px dashed whitesmoke;
+}
+#signup-form input {
+    border: 3px solid whitesmoke;
+    border-radius: 2px;
+}
+
 /* footer */
 #social-networks {
     text-align: center;
