@@ -171,6 +171,14 @@ main {
     color: whitesmoke
 }
 
+/* gallery styles */
+img {
+    width: 100%;
+}
+#photos {
+    line-height: 0;
+    line-height: 1em;
+}
 /* footer */
 #social-networks {
     text-align: center;
